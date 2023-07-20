@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+    background-size: cover;
+     
+ }
+ .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    top:150px;
+ }
+ .sun{
+     height: 90px;
+     width: 90px;
+     background: linear-gradient(to bottom, yellow, orange);
+     border-radius: 50%;
+     position: relative;
+     top: 400px;
+     box-shadow: 0px 0px 30px rgb(252, 193, 84);
+ }
+ .mercury-orbit{
+     position: absolute;
+     top: 385px;
+ height: 140px;
+ width: 140px;
+ border-radius: 50%;
+ border: 1px solid #a1b1c7;
+ animation: moveone 2s infinite linear;
+ 
+ }
+ @keyframes moveone {
+     to{rotate: 360deg;}
+ }
+ .mercury{
+     position: absolute;
+     top:22px;
+     height: 20px;
+     width: 20px;
+     border-radius:50% ;
+     background: linear-gradient(to bottom, gray, white);
+     
+ }
+ .venus-orbit{
+     position: absolute;
+     top: 360px;
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+     border: 1px solid #a1b1c7;
+     animation: movetwo 5s infinite linear;
+ }
+ @keyframes movetwo {
+     to{rotate: 360deg;}
+ }
+ .venus{
+ 
+     position: absolute;
+     height: 25px;
+     width: 25px;
+     top:35px;
+     border-radius:50% ;
+     background: linear-gradient(to bottom, brown, orange);
+ }
+ .earth-orbit{
+     position: absolute;
+     top: 300px;
+     height: 300px;
+     width: 300px;
+     border-radius: 50%;
+     border: 1px solid #a1b1c7;
+     animation: movethree 6s infinite linear;
+ 
+ }
+ @keyframes movethree {
+     to{rotate: 360deg;}
+ }
+ .earth{
+     
+     position: absolute;
+     height: 30px;
+     width: 30px;
+     top:70px;
+     border-radius:50% ;
+   background: linear-gradient(to bottom, deepskyblue, lightblue);
+ }
+ .moon-orbit{
+     position: absolute;
+   left:-10px;
+   top:-15px;
+ height: 60px;
+ width: 60px;
+ border-radius: 50%;
+ border: 1px solid #a1b1c7;
+ animation: movethree 2s infinite linear;
+ }
+ .moon{
+ 
+     position: absolute;
+     height: 10px;
+     width: 10px;
+     top:40px;
+     border-radius:50% ;
+     background: linear-gradient(to bottom, darkgray, white);
+ }
+ .mars{
+     
+     position: absolute;
+     height: 20px;
+     width: 20px;
+     top:135px;
+     border-radius:50% ;
+     background: linear-gradient(to bottom, firebrick, orangered);
+ }
+ .mars-orbit{
+     position: absolute;
+     top:240px;
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+     border: 1px solid #a1b1c7;
+     animation: movetwo 6s infinite linear;
+ 
+ }
+ .jupiter-orbit{
+     position: absolute;
+     top:190px;
+     height: 500px;
+     width: 500px;
+     border-radius: 50%;
+     border: 1px solid #a1b1c7;
+     animation: movetwo 35580ms infinite linear;
+ }
+ .jupiter{
+     position: absolute;
+     height: 60px;
+     width: 60px;
+     top:100px;
+     border-radius:50% ;
+     background: linear-gradient(to bottom, brown, saddlebrown);
+  
+ }
+ .saturn-orbit{
+     position: absolute;
+     top:120px;
+     height: 650px;
+     width: 650px;
+     border-radius: 50%;
+     border: 1px solid #a1b1c7;
+     animation: movetwo 88380ms infinite linear;
+ }
+ .saturn{
+     position: absolute;
+     height: 30px;
+     width: 30px;
+     top:210px;
+     border-radius:50% ;
+     background: linear-gradient(to bottom, lightgoldenrodyellow, goldenrod);
+ }
+ .uranus-orbit{
+     position: absolute;
+     top:80px;
+     height: 750px;
+     width: 750px;
+     border-radius: 50%;
+     border: 1px solid #a1b1c7;
+    animation: movetwo 252030ms infinite linear;
+ }
+ .uranus{
+     position: absolute;
+     height: 30px;
+     width: 30px;
+     top:249px;
+     border-radius:50% ;
+     background: linear-gradient(to bottom, deepskyblue, lightblue);
+     box-shadow: 0 0 5px skyblue;
+ }
+ .neptune-orbit{
+    position: absolute;
+    top:40px;
+    height: 830px;
+    width: 830px;
+    border-radius: 50%;
+    border: 1px solid #a1b1c7;
+   animation: movetwo 494400ms infinite linear;
+}
+.neptune{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top:279px;
+    border-radius:50% ;
+    background: linear-gradient(to bottom, deepskyblue, darkcyan);
+    box-shadow: 0 0 5px lightblue;
+}
